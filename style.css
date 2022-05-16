@@ -1,0 +1,191 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+body{
+    text-align: center;
+
+    background-color: #0554F2;
+}
+.container{  
+    font-family: sans-serif;
+    width: 35%;
+    border-radius: 25px;
+    background-color: white;
+    margin: 50px auto;
+    padding-bottom: 10px;
+}
+header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+header h1{
+    font-size: 35px;
+    margin-bottom: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.inputan input{
+    border: 0;
+    border-radius: 3px;
+    width: 35%;
+    height: 42px;
+    border-bottom: 2px #056CF2 solid;
+    background-color: #F2F2F2;
+    padding-left: 5px;
+    margin: 0 auto;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* .inputan input{
+    border: 0;
+} */
+.inputan button{
+    margin: 10px;
+    height: 40px;
+    background-color: #056CF2;
+    border: 0;
+    padding: 5px;
+    border-radius: 8px;
+    color: #F2F2F2;
+}
+.inputan #button2{
+    display: none;
+}
+.inputan span{
+    /* padding: 10px; */
+    height: 30px;
+    background-color: black;
+    box-sizing: border-box;
+}
+hr{
+    width: 65%;
+    height: 3px;
+    background-color: #448FF2;
+    margin: 0 auto;
+}
+
+/* list */
+.container .list{
+    margin: 0 auto;
+    width: 70%;
+    /* background-color: black; */
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.container select{
+    float: right;
+    text-align: start;
+    background-color: lightblue;
+    border-radius: 8px;
+    border: 1px solid #448FF2;
+    width: 65px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+body ul{
+    list-style: none;
+    
+
+    width: 100%;
+}
+body ul li{
+    width: 100%;
+    display: flex;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+html body ul li div{
+    display: inline-block;
+}
+.task{
+    width: 85%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul li .nomor,.hapus{
+    padding: 10px; 
+}
+.nomor{
+    border-right: 2px white solid;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-weight: bold;
+    border-left: 3px solid #056CF2;
+    background-color: lightblue;
+}
+.hapus{
+    border-left: 3px white solid;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: #056CF2;
+    color: #F2F2F2;
+}
+.list h5{
+    /* float: left; */
+    margin-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#author{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+/* class tambahan */
+.taskDone{
+    text-decoration: line-through;
+    background-color: #91BBF2;
+}
+
+/* responsive */
+@media screen and (max-width: 1366px){
+    .container{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 768px){
+    .container{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 500px){
+    .container{
+        width: 88%;
+    }
+    .container .list{
+
+        width: 90%;
+
+    }
+    .inputan input{
+        width: 50%;
+
+    }
+    header h1{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 375px){
+    .container{
+        width: 95%;
+    }
+    .container .list{
+
+        width: 95%;
+
+    }
+    .inputan input{
+        width: 65%;
+
+    }
+    header h1{
+        font-size: 23px;
+    }
+}
+
+
